@@ -1,0 +1,12 @@
+# Projetos com repositório git próprio (têm remote/deploy independentes) —
+# não devem ser rastreados por este repo "guarda-chuva".
+/App_Agendamento/
+/App_Financeiro/
+/JogoBiblico/
+
+# Legado do App_Agendamento (substituído, sem git próprio) — mantido em disco,
+# fora do controle de versão.
+/App Agenda/
+
+# Pasta de trabalho da sessão (contém .env com segredos) — não deve ir pro git.
+/Automação/
